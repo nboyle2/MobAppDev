@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Assignment01</string>
+
+    <string name="headerLabel">Discount Calculator</string>
+
+    <string name="itemPriceLabel">Item Price:</string>
+    <string name="itemPriceTextHint">Enter List Price</string>
+
+    <string name="saleLabel">Sale %:</string>
+    <string name="radio10">10%</string>
+    <string name="radio15">15%</string>
+    <string name="radio18">18%</string>
+    <string name="radioCustom">Custom</string>
+
+    <string name="customLabel">Custom %:</string>
+    <string name="customValue">25%</string>
+
+    <string name="discountLabel">Discount:</string>
+    <string name="finalPriceLabel">Final Price:</string>
+    <string name="zeroValue">0.00</string>
+
+    <string name="resetButton">Reset</string>
+    <string name="calculateButton">Calculate</string>
+</resources>
