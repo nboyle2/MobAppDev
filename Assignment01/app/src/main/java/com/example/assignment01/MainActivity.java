@@ -1,3 +1,11 @@
+/*
+    Assignment 01
+
+    MainActivity.java
+
+    Group 1: Nicholas Boyle, Shawntraree Lucas
+ */
+
 package com.example.assignment01;
 
 import androidx.appcompat.app.AppCompatActivity;
