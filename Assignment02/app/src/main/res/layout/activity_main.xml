@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Assignment 02
+
+    activity_main.xml
+
+    Group 1: Nicholas Boyle, Shawntraree Lucas
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/deal_no_deal_logo" />
+
+    <TextView
+        android:id="@+id/promptTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose 4 Cases"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoImageView" />
+
+    <ImageView
+        android:id="@+id/suitcase1ImageView"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/promptTextView"
+        app:srcCompat="@drawable/suitcase_position_1" />
+
+    <ImageView
+        android:id="@+id/suitcase2ImageView"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/suitcase1ImageView"
+        app:layout_constraintStart_toEndOf="@+id/suitcase1ImageView"
+        app:layout_constraintTop_toTopOf="@+id/suitcase1ImageView"
+        app:srcCompat="@drawable/suitcase_position_2" />
+
+    <ImageView
+        android:id="@+id/suitcase3ImageView"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/suitcase1ImageView"
+        app:layout_constraintStart_toStartOf="@+id/suitcase1ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/suitcase1ImageView"
+        app:srcCompat="@drawable/suitcase_position_3" />
+
+    <ImageView
+        android:id="@+id/suitcase4ImageView"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/suitcase3ImageView"
+        app:layout_constraintEnd_toEndOf="@+id/suitcase2ImageView"
+        app:layout_constraintStart_toStartOf="@+id/suitcase2ImageView"
+        app:layout_constraintTop_toTopOf="@+id/suitcase3ImageView"
+        app:srcCompat="@drawable/suitcase_position_4" />
+
+    <ImageView
+        android:id="@+id/suitcase5ImageView"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/suitcase3ImageView"
+        app:layout_constraintStart_toStartOf="@+id/suitcase3ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/suitcase3ImageView"
+        app:srcCompat="@drawable/suitcase_position_5" />
+
+    <ImageView
+        android:id="@+id/suitcase6ImageView"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/suitcase5ImageView"
+        app:layout_constraintEnd_toEndOf="@+id/suitcase4ImageView"
+        app:layout_constraintStart_toStartOf="@+id/suitcase4ImageView"
+        app:layout_constraintTop_toTopOf="@+id/suitcase5ImageView"
+        app:srcCompat="@drawable/suitcase_position_6" />
+
+    <ImageView
+        android:id="@+id/suitcase7ImageView"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/suitcase5ImageView"
+        app:layout_constraintStart_toStartOf="@+id/suitcase5ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/suitcase5ImageView"
+        app:srcCompat="@drawable/suitcase_position_7" />
+
+    <ImageView
+        android:id="@+id/suitcase8ImageView"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/suitcase7ImageView"
+        app:layout_constraintEnd_toEndOf="@+id/suitcase6ImageView"
+        app:layout_constraintStart_toStartOf="@+id/suitcase6ImageView"
+        app:layout_constraintTop_toTopOf="@+id/suitcase7ImageView"
+        app:srcCompat="@drawable/suitcase_position_8" />
+
+    <ImageView
+        android:id="@+id/suitcase9ImageView"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/suitcase7ImageView"
+        app:layout_constraintStart_toStartOf="@+id/suitcase7ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/suitcase7ImageView"
+        app:srcCompat="@drawable/suitcase_position_9" />
+
+    <ImageView
+        android:id="@+id/suitcase10ImageView"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/suitcase9ImageView"
+        app:layout_constraintEnd_toEndOf="@+id/suitcase8ImageView"
+        app:layout_constraintStart_toStartOf="@+id/suitcase8ImageView"
+        app:layout_constraintTop_toTopOf="@+id/suitcase9ImageView"
+        app:srcCompat="@drawable/suitcase_position_10" />
+
+    <ImageView
+        android:id="@+id/reward1ImageView"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/suitcase2ImageView"
+        app:srcCompat="@drawable/reward_1" />
+
+    <ImageView
+        android:id="@+id/reward10ImageView"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/reward1ImageView"
+        app:layout_constraintStart_toStartOf="@+id/reward1ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/reward1ImageView"
+        app:srcCompat="@drawable/reward_10" />
+
+    <ImageView
+        android:id="@+id/reward50ImageView"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/reward10ImageView"
+        app:layout_constraintStart_toStartOf="@+id/reward10ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/reward10ImageView"
+        app:srcCompat="@drawable/reward_50" />
+
+    <ImageView
+        android:id="@+id/reward100ImageView"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/reward50ImageView"
+        app:layout_constraintStart_toStartOf="@+id/reward50ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/reward50ImageView"
+        app:srcCompat="@drawable/reward_100" />
+
+    <ImageView
+        android:id="@+id/reward300ImageView"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/reward100ImageView"
+        app:layout_constraintStart_toStartOf="@+id/reward100ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/reward100ImageView"
+        app:srcCompat="@drawable/reward_300" />
+
+    <ImageView
+        android:id="@+id/reward1000ImageView"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/reward300ImageView"
+        app:layout_constraintStart_toStartOf="@+id/reward300ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/reward300ImageView"
+        app:srcCompat="@drawable/reward_1000" />
+
+    <ImageView
+        android:id="@+id/reward10000ImageView"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/reward1000ImageView"
+        app:layout_constraintStart_toStartOf="@+id/reward1000ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/reward1000ImageView"
+        app:srcCompat="@drawable/reward_10000" />
+
+    <ImageView
+        android:id="@+id/reward50000ImageView"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/reward10000ImageView"
+        app:layout_constraintStart_toStartOf="@+id/reward10000ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/reward10000ImageView"
+        app:srcCompat="@drawable/reward_50000" />
+
+    <ImageView
+        android:id="@+id/reward100000ImageView"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/reward50000ImageView"
+        app:layout_constraintStart_toStartOf="@+id/reward50000ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/reward50000ImageView"
+        app:srcCompat="@drawable/reward_100000" />
+
+    <ImageView
+        android:id="@+id/reward500000ImageView"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/reward100000ImageView"
+        app:layout_constraintStart_toStartOf="@+id/reward100000ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/reward100000ImageView"
+        app:srcCompat="@drawable/reward_500000" />
+
+    <Button
+        android:id="@+id/dealButton"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/deal_button"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/suitcase9ImageView" />
+
+    <Button
+        android:id="@+id/noDealButton"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/no_deal_button"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dealButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dealButton" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/reset_button"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dealButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

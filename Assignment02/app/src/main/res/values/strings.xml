@@ -1,0 +1,15 @@
+<!--
+    Assignment 02
+
+    strings.xml
+
+    Group 1: Nicholas Boyle, Shawntraree Lucas
+-->
+
+<resources>
+    <string name="app_name">Assignment02</string>
+
+    <string name="deal_button">Deal</string>
+    <string name="no_deal_button">No Deal</string>
+    <string name="reset_button">Reset</string>
+</resources>
