@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Assignment03</string>
+
+    <!-- Main Activity -->
+
+    <!-- Identification Activity-->
+    <string name="identification_header">Identification Info</string>
+
+    <string name="identification_name_label">Name :</string>
+    <string name="identification_name_hint">Enter Name</string>
+
+    <string name="identification_email_label">Email :</string>
+    <string name="identification_email_hint">Enter Email</string>
+
+    <string name="identification_role_label">Role :</string>
+    <string name="identification_student_radio">Student</string>
+    <string name="identification_employee_radio">Employee</string>
+    <string name="identification_other_radio">Other</string>
+
+    <string name="identification_next_button">Next</string>
+</resources>
