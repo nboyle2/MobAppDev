@@ -2,6 +2,8 @@
     <string name="app_name">Assignment03</string>
 
     <!-- Main Activity -->
+    <string name="heading">Welcome !!</string>
+    <string name="button">Start</string>
 
     <!-- Identification Activity-->
     <string name="identification_header">Identification Info</string>
