@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Assignment03</string>
+    <string name="button">Start</string>
+    <string name="heading">Welcome !!</string>
+    <string name="identification_email_hint">Enter Email</string>
+    <string name="identification_email_label">Email :</string>
+    <string name="identification_employee_radio">Employee</string>
+    <string name="identification_header">Identification Info</string>
+    <string name="identification_name_hint">Enter Name</string>
+    <string name="identification_name_label">Name :</string>
+    <string name="identification_next_button">Next</string>
+    <string name="identification_other_radio">Other</string>
+    <string name="identification_role_label">Role :</string>
+    <string name="identification_student_radio">Student</string>
+    <style name="Base.Theme.Assignment03" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Assignment03" parent="Base.Theme.Assignment03"/>
+</resources>
