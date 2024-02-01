@@ -16,10 +16,10 @@
             android:name=".SelectEducationActivity"
             android:exported="false" />
         <activity
-            android:name=".DemographicActivity"
+            android:name=".IdentificationActivity"
             android:exported="false" />
         <activity
-            android:name=".IdentificationActivity"
+            android:name=".DemographicActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

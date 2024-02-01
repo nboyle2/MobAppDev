@@ -1,3 +1,11 @@
+/*
+    Assignment 03
+
+    Response.java
+
+    Group 1: Nicholas Boyle, Shawntraree Lucas
+ */
+
 package com.example.assignment03;
 
 import java.io.Serializable;
