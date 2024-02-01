@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Assignment03</string>
 
+    <string name="next_button">Next</string>
+
     <!-- Main Activity -->
+
 
     <!-- Identification Activity-->
     <string name="identification_header">Identification Info</string>
@@ -17,5 +20,36 @@
     <string name="identification_employee_radio">Employee</string>
     <string name="identification_other_radio">Other</string>
 
-    <string name="identification_next_button">Next</string>
+
+    <!-- Demographic Activity-->
+    <string name="demographic_header">Demographic Info</string>
+
+    <string name="demographic_education_label">Education:</string>
+
+    <string name="demographic_marital_label">Marital Status:</string>
+
+    <string name="demographic_living_label">Living Status:</string>
+
+    <string name="demographic_income_label">Income:</string>
+
+    <string name="demographic_na">N/A</string>
+
+    <string name="demographic_select_button">Select</string>
+
+
+    <!-- Select Education Activity-->
+    <string name="select_education_header">Select Education Level</string>
+
+    <string name="select_education_prompt">What is the highest degree or level of education you have completed?</string>
+
+    <string name="select_education_below_high_radio">Below High School</string>
+    <string name="select_education_high_radio">High School</string>
+    <string name="select_education_bachelors_radio">Bachelor\'s Degree</string>
+    <string name="select_education_masters_radio">Master\'s Degree</string>
+    <string name="select_education_phd_radio">Ph.D. or higher</string>
+    <string name="select_education_trade_radio">Trade School</string>
+    <string name="select_education_prefer_radio">Prefer not to say</string>
+
+    <string name="cancel_button">Cancel</string>
+    <string name="submit_button">Submit</string>
 </resources>

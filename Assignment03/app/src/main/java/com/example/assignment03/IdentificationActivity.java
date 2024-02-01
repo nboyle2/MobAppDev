@@ -21,7 +21,7 @@ public class IdentificationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_identification);
 
-        nextButton = findViewById(R.id.nextButton);
+        nextButton = findViewById(R.id.cancelButton);
         nameEditText = findViewById(R.id.nameEditText);
         emailEditText = findViewById(R.id.emailEditText);
         roleRadioGroup = findViewById(R.id.roleRadioGroup);

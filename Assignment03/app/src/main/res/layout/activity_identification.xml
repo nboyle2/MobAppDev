@@ -86,29 +86,34 @@
             android:id="@+id/studentRadioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/identification_student_radio" />
+            android:checked="true"
+            android:text="@string/identification_student_radio"
+            android:textSize="16sp" />
 
         <RadioButton
             android:id="@+id/employeeRadioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/identification_employee_radio" />
+            android:text="@string/identification_employee_radio"
+            android:textSize="16sp" />
 
         <RadioButton
             android:id="@+id/otherRadioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/identification_other_radio" />
+            android:text="@string/identification_other_radio"
+            android:textSize="16sp" />
     </RadioGroup>
 
     <Button
-        android:id="@+id/nextButton"
+        android:id="@+id/cancelButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="24dp"
-        android:text="@string/identification_next_button"
+        android:text="@string/next_button"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
