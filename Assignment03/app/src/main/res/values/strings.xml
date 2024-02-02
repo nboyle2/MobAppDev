@@ -1,4 +1,3 @@
-
 <!--
     Assignment 03
 
@@ -63,4 +62,29 @@
 
     <string name="cancel_button">Cancel</string>
     <string name="submit_button">Submit</string>
+
+    <!-- Select Living Activity-->
+    <string name="select_living_header">Select Living Status</string>
+    <string name="select_living_prompt">Which of the following describes your living status?</string>
+    <string name="homeownerButton">Homeowner</string>
+    <string name="renterButton">Renter</string>
+    <string name="lesseButton">Lesse</string>
+    <string name="otherButton">Other</string>
+    <string name="preferNotToSayButton">Prefer not to say</string>
+
+    <string name="livingSubmit">Submit</string>
+    <string name="livingCancel">Cancel</string>
+
+    <!-- Select Income Activity-->
+    <string name="select_income_header">Household Income</string>
+    <string name="income_progress">$50k</string>
+    <string name="incomeMax">" to $100k"</string>
+
+    <string name="incomeSubmit">Submit</string>
+    <string name="incomeCancel">Cancel</string>
+
+
+
+
+
 </resources>
