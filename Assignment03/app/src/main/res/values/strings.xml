@@ -83,6 +83,19 @@
     <string name="incomeSubmit">Submit</string>
     <string name="incomeCancel">Cancel</string>
 
+    <!-- Profile Activity-->
+    <string name="profileHeader">Profile</string>
+    <string name="profileName">"Name: "</string>
+    <string name="profileEmail">"Email: "</string>
+    <string name="profileRole">"Role: "</string>
+    <string name="profileIncome">"Income: "</string>
+    <string name="profileEducation">"Education: "</string>
+    <string name="profileMaritalStatus">"Marital Status: "</string>
+    <string name="profileRenter">"Renter: "</string>
+    <string name="profileIncomeTwo">"Income: "</string>
+
+
+
 
 
 
